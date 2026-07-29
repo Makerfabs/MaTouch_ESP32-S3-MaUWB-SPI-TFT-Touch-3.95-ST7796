@@ -2,10 +2,10 @@
 
 ## Introduction
 
-The MaTouch Lite 3.95 MaUWB is an ESP32-S3 development board featuring a 3.95-inch SPI display driven by the ST7796 controller, with a resolution of 480 x 320. It is equipped with an FT6236 capacitive touch controller, 16 MB Flash, and 8 MB PSRAM, providing responsive display and touch interaction for embedded applications.
+The MaTouch 3.95 MaUWB is an ESP32-S3 development board featuring a 3.95-inch SPI display driven by the ST7796 controller, with a resolution of 480 x 320. It is equipped with an FT6236 capacitive touch controller, 16 MB Flash, and 8 MB PSRAM, providing responsive display and touch interaction for embedded applications.
 The board integrates a MaUWB module for UWB ranging and indoor positioning applications. It also supports battery-powered operation, with an onboard lithium battery connector, charging circuit, battery level monitoring, and charge-status indicators, making it suitable for portable positioning terminals.
 With its SPI display design, the board retains multiple GPIOs for secondary development through the expansion interface. It also includes a MicroSD card interface, native USB Type-C port, and USB-to-UART Type-C port for programming, debugging, and data storage.
-Combining display, capacitive touch, UWB positioning, battery management, and expandable interfaces in one compact platform, the MaTouch Lite 3.95 MaUWB is suitable for education, indoor positioning projects, embedded product development, and rapid prototyping.
+Combining display, capacitive touch, UWB positioning, battery management, and expandable interfaces in one compact platform, the MaTouch 3.95 MaUWB is suitable for education, indoor positioning projects, embedded product development, and rapid prototyping.
 
 Product Link: [MaTouch ESP32-S3 MaUWB SPI TFT Touch 3.95" ST7796]
 
