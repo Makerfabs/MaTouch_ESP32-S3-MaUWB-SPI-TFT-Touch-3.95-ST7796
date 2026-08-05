@@ -7,7 +7,7 @@ The board integrates a MaUWB module for UWB ranging and indoor positioning appli
 With its SPI display design, the board retains multiple GPIOs for secondary development through the expansion interface. It also includes a MicroSD card interface, native USB Type-C port, and USB-to-UART Type-C port for programming, debugging, and data storage.
 Combining display, capacitive touch, UWB positioning, battery management, and expandable interfaces in one compact platform, the MaTouch 3.95 MaUWB is suitable for education, indoor positioning projects, embedded product development, and rapid prototyping.
 
-Product Link: [MaTouch ESP32-S3 MaUWB SPI TFT Touch 3.95" ST7796]
+Product Link: [MaTouch ESP32-S3 MaUWB SPI TFT Touch 3.95" ST7796](https://www.makerfabs.com/matouch-esp32-s3-mauwb-spi-tft-touch-3-95-st7796.html)
 
 Wiki Link:  [MaTouch ESP32-S3 MaUWB SPI TFT Touch 3.95" ST7796](https://wiki.makerfabs.com/MaTouch%20ESP32_S3%20MaUWB%20SPI%20TFT%20Touch%203.95%27%27%20ST7796.html)
 
@@ -17,19 +17,22 @@ Example：1.[3.95_UWB_position](https://github.com/Makerfabs/MaTouch_ESP32-S3-Ma
 
 ## Features
 
-- Controller: ESP32-S3 controller 16M flash, 8M PSRAM;
-- Display: 3.95", 480x320 resolution , driver ST7796, SPI interface
-- Touch Panel: Capacitive, FT6236
-- UWB:MaUWB_DW3000
+- Controller: ESP32-S3 Chipset, 16MB Flash, 8MB PSRAM
+- LCD: 3.95", 480X320 resolution 
+- LCD Driver: ST7796
+- LCD interface: SPI
+- Touch Panel: Capacitive
+- Touch Driver: FT6336U
+- UWB: [MaUWB Chipset](https://www.makerfabs.com/mauwb-dw3000-chipset-ex-antenna-with-sma.html)
+- RF band: CH5 (6489.6MHZ) 
+- UWB rate: 850K/6.8M
+- Max support: 8 Anchor 64 tags
 - USB: 1 * USB_native, 1 *USB-to-UART
 - USB-UART Driver: CH340K
-- Power Supply: USB Type-C 5.0V(4.0V~5.25V); 3.7V Lipo battery
-- Expansion interface: 2*JST1.25mm-4P GPIO, with cable included
-- MicroSD Card Slot
+- Power Supply: USB Type-C 5.0V(4.0V~5.25V)/ Lipo battery 
+- Battery Charger
+- Expansion interface: 2*JST1.25mm-4P
 - LCD Backlight control: Yes
-- Arduino support: Yes
-- LVGL support: Yes
-- Operation temperature: -40℃ to +85℃
 
 
 ## Example
