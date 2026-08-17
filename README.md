@@ -39,4 +39,6 @@ Example：1.[3.95_UWB_position](https://github.com/Makerfabs/MaTouch_ESP32-S3-Ma
 
 ### 3.95_UWB_position
 
+![](md_pic/gif.gif)
+
 For details of this example, please refer to the [Wiki](https://wiki.makerfabs.com/MaTouch%20ESP32_S3%20MaUWB%20SPI%20TFT%20Touch%203.95%27%27%20ST7796.html#31-395_uwb_position) document.
